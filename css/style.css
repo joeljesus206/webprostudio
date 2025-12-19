@@ -1,0 +1,561 @@
+/* Reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:"Poppins", sans-serif;
+    background-color: #060813;
+    color: #e0e0e0;
+}
+
+main {
+  flex: 1;
+  padding: 140px 90px 40px;
+}
+
+/* Página Inicio */
+/* **************************************************** */
+header {
+  position: fixed;       
+  top: 0;                
+  left: 0;
+  width: 100%;           
+  z-index: 1000;        
+  background-color: #060813;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+
+}
+/* **************************************************** */
+.logo {
+    width: auto;
+    max-height: 70px;
+  }
+
+
+/* Titulos */
+
+.contenedor-titulos {
+  text-align: center;
+  flex: 1;
+}
+
+.titulos{
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(187, 219, 219);
+    margin: 0;
+}
+
+/* Subtitulo */
+
+.subtitulo {
+    font-size: 14px;
+    color: rgb(187, 219, 219);
+    margin: 0;
+    font-style: italic;
+}
+
+/* Menú de Navegación */
+
+.menu-navegacion{
+    display: flex;    
+    gap: 15px;
+}
+
+/* Ocultar el checkbox por defecto y el label.hamburger en desktop */
+
+#nav-toggle { display: none; }
+.hamburger { display: none; }
+
+.menu-navegacion a{
+    text-decoration: none;
+    color: rgb(187, 219, 219);
+    border: 1px solid rgb(187, 219, 219);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-navegacion a:hover {
+  background-color: rgb(187, 219, 219);
+  color: #060813;
+}
+
+/* Tipografía general */
+
+h1 {
+  font-size: 36px;
+  font-style: italic;
+  color: rgb(187, 219, 219);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(187, 219, 219);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 16px;
+  color: #e0e0e0;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Carousel */
+
+.carousel-item img{
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5)  
+}
+
+/* suavizar y alargar transición */
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity .9s cubic-bezier(.4,0,.2,1);
+}
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev {
+  opacity: 0;
+}
+
+
+/* Seccion 1 */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.litepack{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 10px;
+}
+
+.plan-lite {
+    margin-top: 25px;
+}
+
+.parrafo-1{
+    padding: 10px;
+    text-align: justify;
+    width: auto;
+}
+
+.section1 img{
+  width: 55%;   
+  height: auto;      
+  border-radius: 30px; 
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px;
+  padding: 5px;
+}
+
+
+/* lista de los planes */
+
+.contenedor-packs{
+    display: flex;
+    justify-content: center;
+      
+}
+
+.lista-pack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       
+  margin: 20px auto;
+  max-width: 700px;         
+  padding: 0 20px;
+}
+
+.lista-pack li {
+  text-align: justify;       
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  width: 100%;             
+}
+
+
+.precio1{
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+}
+
+.btn-plan{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+/* párrafo nota */
+
+.nota {
+    padding: 10px;    
+    text-align: center;  
+    font-size: 1em;
+    color: red;    
+}
+
+/* SECCIÓN 2 */
+
+
+.plan-full{
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px;
+   }
+
+ .section2 img{
+     width: 55%;   
+  height: auto;      
+  border-radius: 30px; 
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px;
+  padding: 5px;
+}
+
+
+/* Datos personales */
+
+.datos-personales{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.columna{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;    
+    
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+
+#ciudad{
+    justify-self: center;
+
+}
+
+#pais{
+    margin-right:-30px ;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(19, 29, 49);
+    
+}
+
+footer p{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container-footer2 a{   
+    display: flex;
+    padding: 5px;
+    color:rgba(235, 235, 238, 0.938);
+    text-decoration: none;
+    justify-content: center;
+}
+
+.iconos-rsocial {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.iconos-rsocial img {
+  width: 32px;  
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.iconos-rsocial img:hover {
+  transform: scale(1.2); /* efecto hover en los iconos */
+}
+
+
+   /* Página "Acerca de" */
+
+
+.section-value{
+    background-color: rgb(19, 37, 37);
+    padding: 40px;  
+    border-radius: 10px;  
+    }
+
+.valores{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    }
+
+.card-body{
+    background-color:antiquewhite ;
+}   
+
+.card-body:hover{
+    background-color: rgb(194, 202, 188);
+ 
+}
+
+.color-text {
+    color: black;
+
+}
+
+.container-footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;      
+}
+
+
+   /* Página Contacto */
+
+
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-contact{
+    margin-top: 10px;  
+    background-color: rgb(19, 37, 37);
+    color: white;
+    font-size: 40px;
+    padding: 40px;
+    border-radius: 10px;    
+    
+}
+
+.info-contacto{
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.lista-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  max-width: 700px;
+  padding: 0 20px
+}
+
+
+.lista-contacto li{
+     text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    width: 100%;    
+  }
+
+
+/* Página Servicios */
+
+.contenedor-list{
+    background-color: rgb(19, 37, 37);
+    border-radius: 10px;
+}
+
+.subtitulo-inicio {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(187, 219, 219);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.lista-valores-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+
+.lista-valores-servicios li {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 5px 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover */
+.lista-valores-servicios li:hover {
+  transform: translateY(-5px);
+}
+
+
+.lista-valores li strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #060813;
+}
+
+/* MEDIA QUERIES */
+
+/* Version Mobile */
+
+@media (max-width:600px) {
+  
+    /* Evitar que el header fijo tape el contenido en móvil */
+
+  header {
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    --header-height: 100px; 
+  }
+
+  /* Menu navegacion oculto, aparece al hacer clic */
+
+  .menu-navegacion {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: var(--header-height, 100px);
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    align-items: stretch;
+    background-color: #060813;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  }
+
+  /* checkbox oculto que controla el menú */
+
+  #nav-toggle { display: none; }
+
+  /* etiqueta hamburguesa visible en móvil */
+
+  .hamburger {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    width: 44px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+
+  .hamburger .bar {
+    display: block;
+    height: 3px;
+    background: rgb(187, 219, 219);
+    border-radius: 2px;
+  }
+
+  /* mostrar el menu navegacion al marcar el checkbox */
+
+  #nav-toggle:checked ~ .menu-navegacion {
+    display: flex;
+  }
+
+  /* ajustes de espaciado y tipografía móvil */
+
+  .logo { max-height: 54px; }
+  .titulos { font-size: 22px; }
+  .subtitulo { font-size: 12px; }
+  main { padding: calc(var(--header-height, 100px) + 12px) 12px 40px; }
+  .section1 img, .section2 img { width: 90%; }
+
+  /* botones de navegacion de menu se abarcan el 100% del ancho al desplegar el menu */
+
+  .menu-navegacion a {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    border-radius: 0;
+    text-align: center;
+  }
+}
+
+

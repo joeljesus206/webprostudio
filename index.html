@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPro Studio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container-logo">
+            <img src="./images/Logo.png" alt="Logo Webpro Studio" class="logo">
+        </div>
+
+        <div class="contenedor-titulos">
+            <h1 class="titulos">WebPro Studio</h1>
+            <h2 class="subtitulo">Soluciones digitales a tu medida</h2>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" />
+        <label for="nav-toggle" class="hamburger" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <nav class="menu-navegacion">
+            <a href="./index.html" id="Inicio"> Inicio </a>
+            <a href="./pages/acerca_de.html" id="acerca_de"> Nosotros </a>
+            <a href="./pages/contacto.html" id="contacto"> Contacto </a>
+            <a href="./pages/servicios.html" id="servicios">Servicios</a>
+            <a href="./pages/portafolio.html" id="portafolio">Portafolio</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Carousel de bootstrap -->
+
+        <section>
+
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="../images/carousel/proyecto1.png" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/carousel/proyecto2.png" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../images/carousel/proyecto3.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- Sección del primer plan -->
+
+        <section class="section1">
+
+            <div class="litepack">
+                <h2 class="plan-lite"> Plan Lite Pack </h2>
+
+                <p class="parrafo-1"> El Plan Web Lite Pack incluye el diseño, construcción y entrega de un sitio web
+                    completamente personalizado, adaptado a las necesidades específicas de tu negocio. Este plan es
+                    ideal
+                    para emprendimientos o proyectos que buscan presencia digital profesional sin necesidad de servicio
+                    de
+                    mantenimiento mensual.
+                </p>
+
+            </div>
+
+            <div>
+                <img src="./images/web-lite-pack.jpeg" alt="Diseño Web Lite Pack personalizado">
+            </div>
+
+            <div>
+                <h3 class="plan-lite"> ¿Qué incluye?</h3>
+            </div>
+
+            <div class="contenedor-packs">
+
+                <ul class="lista-pack">
+
+                    <li>Diseño web moderno y personalizado</li>
+                    <li>Sitio adaptable a dispositivos móviles (responsive)</li>
+                    <li>Estructura optimizada para destacar información clave</li>
+                    <li>Entrega final lista para publicar</li>
+
+                </ul>
+
+            </div>
+
+            <p class="precio1"> Todo esto por tan solo 250US$ </p>
+
+            <div class="btn-plan">
+                <button> Solicitar plan</button>
+            </div>
+
+            <p class="nota">Nota: Este plan no incluye mantenimiento mensual, por lo que el cliente es responsable de futuras actualizaciones y cambios posteriores.</p>
+
+        </section>
+
+
+        <!-- Sección del segundo plan -->
+
+        <hr>
+
+        <section class="section2">
+            <h2 class="plan-full"> Plan Full Pack </h2>
+
+            <p class="parrafo-1"> El Plan Web Full Pack te entrega un sitio web completamente diseñado a tu medida,
+                junto con un servicio de mantenimiento mensual que asegura que tu página esté siempre actualizada,
+                optimizada y funcionando correctamente. Es la solución ideal para quienes buscan tranquilidad y soporte
+                continuo sin preocuparse por aspectos técnicos. </p>
+
+            <img src="./images/web-full-pack.jpeg" alt="Diseño Web Full Pack Personalizado">
+
+            <h3 class="plan-lite"> ¿Qué incluye?</h3>
+
+
+ <div class="contenedor-packs">
+     <ul class="lista-pack">
+                <li>Diseño web personalizado</li>
+                <li>Optimización para dispositivos móviles</li>
+                <li>Actualizaciones periódicas del contenido</li>
+                <li>Corrección de errores y mejoras continuas</li>
+                <li>Seguridad y respaldos regulares</li>
+                <li>Soporte técnico mensual</li>
+            </ul>
+ </div>
+           
+
+            <p class="precio1"> Todo esto por tan solo 400US$ </p>
+
+            <div class="btn-plan">
+                <button> Solicitar plan</button>
+            </div>
+
+            <p class="nota"> Nota: Este plan garantiza que tu sitio web se mantenga estable, seguro y en constante
+                mejora, permitiéndote enfocarte en tu negocio sin complicaciones técnicas.</p>
+
+        </section>
+
+
+
+
+
+    </main>
+
+    <!-- Mis datos -->
+
+    <hr>
+
+    <table class="datos-personales">
+        <tr class="columna">
+            <th> Nombre </th>
+            <th> Edad </th>
+            <th> Ciudad </th>
+            <th> País </th>
+        </tr>
+
+        <tr class="fila">
+            <td> Joel Alvarez </td>
+            <td> 37 </td>
+            <td id="ciudad"> Maracay </td>
+            <td id="pais"> Venezuela </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- Pie de pagina -->
+
+    <footer>
+
+        <div class="container-footer">
+
+            <div>
+                <p> Siguenos en nuestras redes sociales</p>
+            </div>
+
+            <div class="iconos-rsocial">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./images/logos footer/Instagram_icon.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./images/logos footer/facebook_icon.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.x.com" target="_blank">
+                    <img src="./images/logos footer/x_icon.png" alt="X.com">
+                </a>
+            </div>
+
+            <div class="container-footer2">
+
+                <div> <a href="https://www.webprostudio.com"> www.webprostudio.com </a> </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
