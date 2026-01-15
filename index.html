@@ -10,6 +10,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,98 +52,36 @@
 
     <main>
 
-        
+        <!-- Banner principal -->
 
-        <!-- Sección del primer plan -->
-
-        <section class="section1">
-
-            <div class="litepack">
-                <h2 class="plan-lite"> Plan Lite Pack </h2>
-
-                <p class="parrafo-1"> El Plan Web Lite Pack incluye el diseño, construcción y entrega de un sitio web
-                    completamente personalizado, adaptado a las necesidades específicas de tu negocio. Este plan es
-                    ideal
-                    para emprendimientos o proyectos que buscan presencia digital profesional sin necesidad de servicio
-                    de
-                    mantenimiento mensual.
-                </p>
-
-            </div>
-
-            <div>
-                <img src="./images/web-lite-pack.jpeg" alt="Diseño Web Lite Pack personalizado">
-            </div>
-
-            <div>
-                <h3 class="plan-lite"> ¿Qué incluye?</h3>
-            </div>
-
-            <div class="contenedor-packs">
-
-                <ul class="lista-pack">
-
-                    <li>Diseño web moderno y personalizado</li>
-                    <li>Sitio adaptable a dispositivos móviles (responsive)</li>
-                    <li>Estructura optimizada para destacar información clave</li>
-                    <li>Entrega final lista para publicar</li>
-
-                </ul>
+        <section class="hero-banner" aria-label="Banner principal">
+            <div class="banner-inner">
+                <div class="banner-content">
+                    <h2>Servicios Profesionales de Diseño y Desarrollo Web</h2>
+                    <p>Diseñamos y desarrollamos sitios web modernos, funcionales y adaptados a tus necesidades.
+                        Ayudamos a emprendedores y empresas a tener presencia digital con páginas rápidas, responsivas y
+                        fáciles de administrar..</p>
+                    <p>Desde páginas informativas hasta sitios personalizados, ofrecemos soluciones web enfocadas en la
+                        experiencia del usuario, el diseño profesional y el correcto funcionamiento en todos los
+                        dispositivos.</p>
+                    <div class="banner-cta">
+                        <a href="./pages/servicios.html" class="btn btn-cta">Ver servicios</a>
+                    </div>
+                </div>
 
             </div>
-
-            <p class="precio1"> Todo esto por tan solo 250US$ </p>
-
-            <div class="btn-plan">
-                <button> Solicitar plan</button>
-            </div>
-
-            <p class="nota">Nota: Este plan no incluye mantenimiento mensual, por lo que el cliente es responsable de futuras actualizaciones y cambios posteriores.</p>
-
         </section>
 
-
-        <!-- Sección del segundo plan -->
-
-        <hr>
-
-        <section class="section2">
-            <h2 class="plan-full"> Plan Full Pack </h2>
-
-            <p class="parrafo-1"> El Plan Web Full Pack te entrega un sitio web completamente diseñado a tu medida,
-                junto con un servicio de mantenimiento mensual que asegura que tu página esté siempre actualizada,
-                optimizada y funcionando correctamente. Es la solución ideal para quienes buscan tranquilidad y soporte
-                continuo sin preocuparse por aspectos técnicos. </p>
-
-            <img src="./images/web-full-pack.jpeg" alt="Diseño Web Full Pack Personalizado">
-
-            <h3 class="plan-lite"> ¿Qué incluye?</h3>
-
-
- <div class="contenedor-packs">
-     <ul class="lista-pack">
-                <li>Diseño web personalizado</li>
-                <li>Optimización para dispositivos móviles</li>
-                <li>Actualizaciones periódicas del contenido</li>
-                <li>Corrección de errores y mejoras continuas</li>
-                <li>Seguridad y respaldos regulares</li>
-                <li>Soporte técnico mensual</li>
-            </ul>
- </div>
-           
-
-            <p class="precio1"> Todo esto por tan solo 400US$ </p>
-
-            <div class="btn-plan">
-                <button> Solicitar plan</button>
+        <!-- Título del carousel -->
+        <section class="carousel-intro" aria-label="Introducción del carrusel">
+            <div class="carousel-intro-inner">
+                <h3 class="carousel-title">Proyectos destacados</h3>
+                <p class="carousel-subtitle">Ejemplos de sitios desarrollados por WebPro Studio. Ingresa a nuestro
+                    portafolio para ver más detalles.</p>
             </div>
-
-            <p class="nota"> Nota: Este plan garantiza que tu sitio web se mantenga estable, seguro y en constante
-                mejora, permitiéndote enfocarte en tu negocio sin complicaciones técnicas.</p>
-
         </section>
 
-        <!-- Carousel de bootstrap 2 -->
+        <!-- Carousel de bootstrap  -->
 
         <section>
 
@@ -193,6 +133,95 @@
 
 
 
+        <!-- Sección del primer plan -->
+
+        <section class="section1">
+
+            <div class="litepack">
+                <h2 class="plan-lite"> Plan Lite Pack </h2>
+
+                <p class="parrafo-1"> El Plan Web Lite Pack incluye el diseño, construcción y entrega de un sitio web
+                    completamente personalizado, adaptado a las necesidades específicas de tu negocio. Este plan es
+                    ideal
+                    para emprendimientos o proyectos que buscan presencia digital profesional sin necesidad de servicio
+                    de
+                    mantenimiento mensual.
+                </p>
+
+            </div>
+
+            <div class="imageplan1">
+                <img src="./images/web-lite-pack.jpeg" alt="Diseño Web Lite Pack personalizado" data-aos="fade-zoom-in">
+            </div>
+
+            <div>
+                <h3 class="plan-lite"> ¿Qué incluye?</h3>
+            </div>
+
+            <div class="contenedor-packs">
+
+                <ul class="lista-pack">
+
+                    <li>Diseño web moderno y personalizado</li>
+                    <li>Sitio adaptable a dispositivos móviles (responsive)</li>
+                    <li>Estructura optimizada para destacar información clave</li>
+                    <li>Entrega final lista para publicar</li>
+
+                </ul>
+
+            </div>
+
+            <p class="precio1"> Todo esto por tan solo 250US$ </p>
+
+            <div class="btn-plan">
+                <button> Solicitar plan</button>
+            </div>
+
+            <p class="nota">Nota: Este plan no incluye mantenimiento mensual, por lo que el cliente es responsable de
+                futuras actualizaciones y cambios posteriores.</p>
+
+        </section>
+
+
+        <!-- Sección del segundo plan -->
+
+        <hr>
+
+        <section class="section2">
+            <h2 class="plan-full"> Plan Full Pack </h2>
+
+            <p class="parrafo-1"> El Plan Web Full Pack te entrega un sitio web completamente diseñado a tu medida,
+                junto con un servicio de mantenimiento mensual que asegura que tu página esté siempre actualizada,
+                optimizada y funcionando correctamente. Es la solución ideal para quienes buscan tranquilidad y soporte
+                continuo sin preocuparse por aspectos técnicos. </p>
+
+            <img src="./images/web-full-pack.jpeg" alt="Diseño Web Full Pack Personalizado" data-aos="fade-zoom-in">
+
+            <h3 class="plan-lite"> ¿Qué incluye?</h3>
+
+
+            <div class="contenedor-packs">
+                <ul class="lista-pack">
+                    <li>Diseño web personalizado</li>
+                    <li>Optimización para dispositivos móviles</li>
+                    <li>Actualizaciones periódicas del contenido</li>
+                    <li>Corrección de errores y mejoras continuas</li>
+                    <li>Seguridad y respaldos regulares</li>
+                    <li>Soporte técnico mensual</li>
+                </ul>
+            </div>
+
+
+            <p class="precio1"> Todo esto por tan solo 400US$ </p>
+
+            <div class="btn-plan" >
+                <button> Solicitar plan</button>
+            </div>
+
+            <p class="nota"> Nota: Este plan garantiza que tu sitio web se mantenga estable, seguro y en constante
+                mejora, permitiéndote enfocarte en tu negocio sin complicaciones técnicas.</p>
+
+        </section>
 
 
     </main>
@@ -256,6 +285,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
