@@ -810,9 +810,9 @@ footer p {
   }
 
   /* Background Evitar comportamiento 'fixed' en móviles por rendimiento; usar fijo en pantallas grandes */
-  (min-width: 900px) {
-    body {
-      background-attachment: fixed;
-    }
+}
+@media (min-width: 900px) {
+  body {
+    background-attachment: fixed;
   }
 }
