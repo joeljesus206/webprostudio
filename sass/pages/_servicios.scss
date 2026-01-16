@@ -1,0 +1,62 @@
+/* Página Servicios */
+
+.contenedor-list {
+  background-color: rgb(19, 37, 37);
+  border-radius: 10px;
+}
+
+.subtitulo-inicio {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(187, 219, 219);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.lista-valores-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+
+.lista-valores-servicios li {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover */
+.lista-valores-servicios li:hover {
+  transform: translateY(-5px);
+}
+
+
+.lista-valores li strong {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #060813;
+}
+
+.backlink {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icon-link {
+  color: rgb(187, 219, 219);
+}

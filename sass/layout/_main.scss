@@ -1,0 +1,232 @@
+/* Banner principal */
+main {
+  flex: 1;
+  padding: 140px 90px 40px;
+}
+
+.hero-banner {
+  background: linear-gradient(180deg, rgba(187, 219, 219, 0.03), rgba(255, 255, 255, 0.01));
+   border: 1px solid rgba(187, 219, 219, 0.06);
+  padding: 26px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.banner-content {
+  flex: 1 1 60%;
+}
+
+.banner-content h2 {
+  color: rgb(187, 219, 219);
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.banner-content p {
+  color: #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.banner-cta{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.banner-cta:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.btn-cta {
+  display: inline-block;
+  background: rgb(187, 219, 219);
+  color: #060813;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  
+}
+
+.banner-visual {
+  flex: 0 0 210px;
+  min-width: 140px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #060813;
+  background: rgba(187, 219, 219, 0.92);
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Introducción del carousel */
+.carousel-intro {
+  margin: 22px 0;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-intro-inner {
+  max-width: 980px;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-title {
+  color: rgb(187, 219, 219);
+  font-size: 26px;
+  margin: 0 0 6px 0;
+}
+
+.carousel-subtitle {
+  color: #e0e0e0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Carousel */
+
+.carousel-item img {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5)
+}
+
+/* suavizar y alargar transición */
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity .9s cubic-bezier(.4, 0, .2, 1);
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev {
+  opacity: 0;
+}
+
+/* Seccion 1 */
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.litepack {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.plan-lite {
+  margin-top: 25px;
+}
+
+.parrafo-1 {
+  padding: 10px;
+  text-align: justify;
+  width: auto;
+}
+
+.section1 img {
+  width: 55%;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px;
+  padding: 5px;
+
+}
+
+/* lista de los planes */
+
+.contenedor-packs {
+  display: flex;
+  justify-content: center;
+
+}
+
+.lista-pack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.lista-pack li {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.precio1 {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: red;
+}
+
+.btn-plan {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  
+}
+
+.btn-plan:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* párrafo nota */
+
+.nota {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  color: red;
+}
+
+/* SECCIÓN 2 */
+
+
+.plan-full {
+  text-align: center;
+  text-decoration: underline;
+  margin: 5px;
+}
+
+.section2 img {
+  width: 55%;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px;
+  padding: 5px;
+}

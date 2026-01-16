@@ -1,0 +1,51 @@
+/* Página Contacto */
+
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-contact {
+  margin-top: 10px;
+  background-color: rgb(19, 37, 37);
+  color: white;
+  font-size: 40px;
+  padding: 40px;
+  border-radius: 10px;
+
+}
+
+.info-contacto {
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.lista-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 0 20px
+}
+
+
+.lista-contacto li {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  width: 100%;
+}

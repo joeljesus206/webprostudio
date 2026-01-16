@@ -1,0 +1,18 @@
+@use "base/reset";
+@use "base/body";
+@use "base/tipografia";
+
+@use "layout/header";
+@use "layout/main";
+@use "layout/footer";
+
+@use "components/buttons";
+@use "components/cards";
+@use "components/forms";
+
+@use "pages/contacto";
+@use "pages/nosotros";
+@use "pages/servicios";
+@use "pages/portafolio";
+
+@use "layout/mediaqueries";

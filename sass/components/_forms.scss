@@ -1,0 +1,30 @@
+/* Datos personales */
+
+.datos-personales {
+  display: flex;
+  justify-content: center;
+
+}
+
+.columna {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+
+}
+
+#ciudad {
+  justify-self: center;
+
+}
+
+#pais {
+  margin-right: -30px;
+}

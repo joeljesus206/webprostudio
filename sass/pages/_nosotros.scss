@@ -1,0 +1,37 @@
+/* Página "Acerca de" */
+
+
+.section-value {
+  background-color: rgb(19, 37, 37);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.valores {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.card-body {
+  background-color: antiquewhite;
+}
+
+.card-body:hover {
+  background-color: rgb(194, 202, 188);
+
+}
+
+.color-text {
+  color: black;
+
+}
+
+.container-footer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
