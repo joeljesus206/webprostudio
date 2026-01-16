@@ -35,26 +35,7 @@ main {
   margin-bottom: 12px;
 }
 
-.banner-cta{
-  text-align: center;
-  margin-top: 12px;
-}
 
-.banner-cta:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-.btn-cta {
-  display: inline-block;
-  background: rgb(187, 219, 219);
-  color: #060813;
-  padding: 10px 16px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  
-}
 
 .banner-visual {
   flex: 0 0 210px;
@@ -146,7 +127,7 @@ main {
   width: auto;
 }
 
-.section1 img {
+@mixin images-style {
   width: 55%;
   height: auto;
   border-radius: 30px;
@@ -154,7 +135,10 @@ main {
   margin: 0 auto;
   box-shadow: 5px 5px 15px;
   padding: 5px;
+}
 
+.section1 img {
+  @include images-style;
 }
 
 /* lista de los planes */
@@ -191,18 +175,6 @@ main {
   color: red;
 }
 
-.btn-plan {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  
-}
-
-.btn-plan:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
 /* párrafo nota */
 
 .nota {
@@ -222,11 +194,5 @@ main {
 }
 
 .section2 img {
-  width: 55%;
-  height: auto;
-  border-radius: 30px;
-  display: block;
-  margin: 0 auto;
-  box-shadow: 5px 5px 15px;
-  padding: 5px;
+  @include images-style;
 }

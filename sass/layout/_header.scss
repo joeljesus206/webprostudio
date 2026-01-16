@@ -1,10 +1,12 @@
+@use "../utilities/variables" as *;
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #060813;
+    background-color: $color-fondo-header;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -291,6 +291,18 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        (function () {
+            function updateHeaderHeight() {
+                var header = document.querySelector('header');
+                if (!header) return;
+                var h = header.offsetHeight;
+                document.documentElement.style.setProperty('--header-height', h + 'px');
+            }
+            window.addEventListener('load', updateHeaderHeight);
+            window.addEventListener('resize', updateHeaderHeight);
+        })();
+    </script>
 </body>
 
 </html>

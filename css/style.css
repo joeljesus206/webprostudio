@@ -158,26 +158,6 @@ main {
   margin-bottom: 12px;
 }
 
-.banner-cta {
-  text-align: center;
-  margin-top: 12px;
-}
-
-.banner-cta:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
-}
-
-.btn-cta {
-  display: inline-block;
-  background: rgb(187, 219, 219);
-  color: #060813;
-  padding: 10px 16px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
 .banner-visual {
   flex: 0 0 210px;
   min-width: 140px;
@@ -305,17 +285,6 @@ main {
   color: red;
 }
 
-.btn-plan {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-}
-
-.btn-plan:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
 /* párrafo nota */
 .nota {
   padding: 10px;
@@ -415,6 +384,37 @@ footer .iconos-rsocial img {
 footer .iconos-rsocial img:hover {
   transform: scale(1.2);
   /* efecto hover en los iconos */
+}
+
+.banner-cta {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.banner-cta:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.btn-cta {
+  display: inline-block;
+  background: rgb(187, 219, 219);
+  color: #060813;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-plan {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.btn-plan:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 /* Cards de proyectos (Portafolio) */

@@ -1,3 +1,5 @@
+@use "../utilities/variables" as *;
+
 body {
   height: 100%;
   margin: 0;
@@ -10,7 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #e0e0e0;
   /* Background gradient */
-  background: linear-gradient(102deg, rgba(15, 15, 15, 1) 0%, rgba(38, 46, 48, 1) 50%, rgba(32, 41, 43, 1) 99%);
+  background: $bg-gradient;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
