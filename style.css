@@ -322,7 +322,7 @@ footer .container-footer {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  width: 100%;
+  width: 10%;
 }
 footer .container-footer p {
   text-align: center;
@@ -340,7 +340,7 @@ footer .iconos-rsocial {
   display: flex;
   gap: 15px;
   justify-content: center;
-  margin-top: 6px;
+  margin-top: 1px;
 }
 footer .iconos-rsocial img {
   width: 32px;
@@ -762,24 +762,6 @@ footer .iconos-rsocial img:hover {
     box-sizing: border-box;
     border-radius: 0;
     text-align: center;
-  }
-  /* Ajustes del footer solo en móvil: reducir altura y espaciados */
-  footer {
-    padding: 6px;
-  }
-  footer .container-footer {
-    gap: 6px;
-  }
-  footer .container-footer p {
-    margin: 0 0 4px 0;
-  }
-  footer .iconos-rsocial {
-    gap: 10px;
-    margin-top: 4px;
-  }
-  footer .iconos-rsocial img {
-    width: 28px;
-    height: 28px;
   }
 }
 
