@@ -1,30 +1,49 @@
 /* Datos personales */
 
 .datos-personales {
-  display: flex;
-  justify-content: center;
-
+  margin: 18px auto;
+  width: auto;
+  max-width: 360px;
+  min-width: 0;
+  border-collapse: collapse;
+  text-align: center;
+  display: table;
 }
 
 .columna {
-  display: flex;
-  justify-content: space-between;
-  width: 400px;
-
+  /* fila de encabezados */
+  display: table-row;
 }
 
 .fila {
-  display: flex;
-  justify-content: space-between;
-  padding: 2px;
-
+  display: table-row;
+  vertical-align: middle;
 }
 
-#ciudad {
-  justify-self: center;
-
+.datos-personales th,
+.datos-personales td {
+  display: table-cell;
+  padding: 8px 12px;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
+#ciudad,
 #pais {
-  margin-right: -30px;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .datos-personales {
+    width: 90%;
+    max-width: 100%;
+  }
+  .datos-personales th,
+  .datos-personales td {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
 }
