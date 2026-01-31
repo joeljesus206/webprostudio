@@ -60,3 +60,20 @@
 .icon-link {
   color: rgb(187, 219, 219);
 }
+
+/* Ajustes para pantallas muy pequeñas (320px) en la página Servicios */
+@media (max-width: 320px) {
+  .contenedor-list {
+    padding: 8px 12px;
+  }
+  .lista-valores-servicios {
+    padding: 10px;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    font-size: 14px;
+  }
+  .lista-valores-servicios li {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

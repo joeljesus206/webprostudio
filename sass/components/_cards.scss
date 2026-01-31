@@ -56,3 +56,30 @@
   font-size: 12px;
   margin-top: 8px;
 }
+
+/* Ajustes para pantallas muy pequeñas (320px) */
+@media (max-width: 320px) {
+  .project-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 0 8px;
+    max-width: 320px;
+    margin: 0 auto;
+    justify-items: stretch;
+  }
+  .project-card {
+    padding: 12px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .project-card img {
+    height: 120px;
+  }
+  .project-card h3 {
+    font-size: 16px;
+  }
+  .project-card p {
+    font-size: 13px;
+  }
+}
